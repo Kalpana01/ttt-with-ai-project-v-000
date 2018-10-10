@@ -22,7 +22,6 @@ class Board
     cells[user_input.to_i-1]
    end
 
-<<<<<<< HEAD
    def full?
     cells.all?  {|index| index == "X" || index == "O"}
    end
@@ -48,7 +47,7 @@ class Board
   def index(input)
     input = input.to_i - 1
   end
-=======
+  
   def full?
     cells.all?  {|index| index == "X" || index == "O"}
   end
